@@ -17,8 +17,11 @@ class Shapes {
   void printASquare() {
     // Use System.out.println to print the square above using '*'s.
 
-    System.out.println("******");
     // TODO add the rest of the square...
+    System.out.println("******");
+    System.out.println("*    *");
+    System.out.println("*    *");
+    System.out.println("******");
   }
 
 
@@ -28,6 +31,11 @@ class Shapes {
    */
   void printARightAngledTriangle() {
     // TODO print the triangle described above
+      System.out.println("*");
+      System.out.println("**");
+      System.out.println("***");
+      System.out.println("****");
+      System.out.println("*****");
   }
 
 }
