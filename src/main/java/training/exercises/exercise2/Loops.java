@@ -11,11 +11,17 @@ class Loops {
    * @param limit the number at which to stop counting (inclusive)
    */
   void countUpTo(int limit) {
-    System.out.println(1);
-    System.out.println(2);
-    System.out.println(3);
-    System.out.println(4);
+//      int x = 1;
+//      while (x < limit){
+//          System.out.println(x);
+//          ++x;
+//      }
+
     // TODO surely there is a better way to do this...
+      for (int i=1; i<= limit;++i){
+          System.out.println(i);
+
+      }
   }
 
 
@@ -36,6 +42,9 @@ class Loops {
    */
   void countInMultiples(int multiple, int limit) {
     // TODO implement method
+      for (int i=multiple; i <= limit; i += multiple){
+          System.out.println(i);
+      }
   }
 
 
@@ -47,7 +56,11 @@ class Loops {
    */
   int sumOfSquares(int n) {
     // TODO implement
-    return 0;
+    int sum = 0;
+    for (int i=0; i<=n; ++i){
+        sum = sum + i*i;
+    }
+    return sum;
   }
 
 
@@ -59,7 +72,11 @@ class Loops {
    */
   double average(int n) {
     // TODO use a loop to calculate the average
-    return 0;
+    float all = 0;
+    for(int i = 1; i<=n; ++i){
+        all =all+ i;
+    }
+    return all/n;
   }
 
 
@@ -70,9 +87,17 @@ class Loops {
    * @param breakAtTen whether to stop after printing 10
    */
   void maybeBreakAtTen(int n, boolean breakAtTen) {
-    // TODO use a loop with the 'break' keyword
+      // TODO use a loop with the 'break' keyword
+      if (breakAtTen) {
+          for (int i = 1; i <= 10; ++i) {
+              System.out.println(i);
+          }
+      } else {
+          for (int i = 1; i <= n; ++i) {
+              System.out.println(i);
+          }
+      }
   }
-
 
   /**
    * Prints the numbers from 1 to 10 but skips out the given number.
@@ -81,6 +106,10 @@ class Loops {
    */
   void countToTenSkipping(int numberToSkip) {
     // TODO use a loop with the 'continue' keyword
+      for (int i=1; i<=10; ++i){
+          if (i == numberToSkip) continue;
+          else System.out.println(i);
+      }
   }
 
 
