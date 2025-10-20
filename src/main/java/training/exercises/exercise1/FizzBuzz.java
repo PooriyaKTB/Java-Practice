@@ -17,7 +17,16 @@ class FizzBuzz {
    * @param number the number for which to print the output
    */
   void takeTurn(int number) {
-    System.out.println(number); // TODO print the correct FizzBuzz output
-  }
+    // TODO print the correct FizzBuzz output
 
+    if (number%3==0 && number%5==0){
+        System.out.println("FizzBuzz");
+    } else if (number%5==0) {
+        System.out.println("Buzz");
+    } else if (number%3==0) {
+        System.out.println("Fizz");
+    } else {
+        System.out.println(number);
+    }
+  }
 }
