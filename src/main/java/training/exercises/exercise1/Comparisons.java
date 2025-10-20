@@ -12,7 +12,7 @@ class Comparisons {
    * @return true if the number is positive; false otherwise
    */
   boolean isPositive(int number) {
-    return number > 0; // TODO fix this method
+    return number > 0;
   }
 
 
