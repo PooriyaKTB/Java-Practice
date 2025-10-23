@@ -71,7 +71,7 @@ public class TestExercise0 extends ExerciseTest {
    */
   @Test
   public void testPrintingARightAngledTriangle() {
-    new Shapes().printARightAngledTriangle();
+    new Shapes().printARightAngledTriangle(5);
     checkPrintedOutput(format("*%n**%n***%n****%n*****%n"));
   }
 }
