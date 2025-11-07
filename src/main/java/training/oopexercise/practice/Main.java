@@ -1,15 +1,14 @@
 package training.oopexercise.practice;
 
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(BuyWine(80));
+        needs("pooriya", "fereshteh", "Nathan");
     }
 
-    public static String BuyWine(int age) {
-        if (age >= 18 && age <60){
-            return "You can buy it";
-        } else {
-            return "Your can't buy it";
-        }
+    public static void needs(String ... needs) {
+         for (String need : needs){
+             System.out.println(need);
+         }
     }
 }
