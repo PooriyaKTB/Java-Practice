@@ -6,5 +6,10 @@ public class Zoo {
         System.out.println(dog.name);
         dog.sleep();
         dog.eat();
+
+        Fish fish = new Fish("Gold", 2,1);
+        System.out.println(fish.name);
+        fish.swimming();
+        fish.eat();
     }
 }
