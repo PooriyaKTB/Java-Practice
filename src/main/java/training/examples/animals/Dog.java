@@ -16,7 +16,7 @@ public class Dog implements Animal {
    *
    * @param name the name of the dog
    */
-  Dog(String name) {
+  public Dog(String name) {
     this.name = name;
   }
 

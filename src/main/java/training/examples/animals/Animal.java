@@ -1,5 +1,7 @@
 package training.examples.animals;
 
+import java.sql.SQLOutput;
+
 /**
  * An animal.
  */
@@ -11,3 +13,4 @@ public interface Animal {
   String getName();
 
 }
+
