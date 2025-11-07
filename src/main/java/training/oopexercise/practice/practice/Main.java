@@ -10,8 +10,7 @@ public class Main {
     ninja.fight();
     System.out.println(ninja.health);
 
-    Operator assassin = new Operator();
-    assassin.name = "Pooriya";
+    Operator assassin = new Operator("Pooriya");
     assassin.power = 50000;
     assassin.speed = 4950;
     assassin.defence();

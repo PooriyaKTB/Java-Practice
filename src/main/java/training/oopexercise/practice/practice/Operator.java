@@ -10,7 +10,12 @@ public class Operator {
     public Operator(){
         this.health = 100;
         this.score = 0;
-        this.fight();
+        System.out.println("created");
+    }
+    public Operator(String name){
+        this.score = 50;
+        this.name = name;
+        System.out.println("created with +50 score");
     }
     public void fight(){
         System.out.println(this.name + " is defending: defence power = " + this.power);
