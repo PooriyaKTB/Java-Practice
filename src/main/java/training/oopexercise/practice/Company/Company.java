@@ -17,6 +17,9 @@ public class Company {
 
         Staff staff = new Staff();
         paySalary(staff);
+
+        System.out.println(Employee.companyName);
+        System.out.println(CEO.companyName);
     }
 
     public static void paySalary(Employee role) {
