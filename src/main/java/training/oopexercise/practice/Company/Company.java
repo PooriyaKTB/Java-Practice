@@ -1,7 +1,5 @@
 package training.oopexercise.practice.Company;
 
-import org.checkerframework.checker.units.qual.C;
-
 public class Company {
     public static void main(String[] args) {
         System.out.println("--CEO--");
