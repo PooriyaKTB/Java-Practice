@@ -2,6 +2,10 @@ package training.oopexercise.practice.Company;
 
 public class CEO extends Employee{
 
+    public CEO(String name) {
+        this.name = name;
+    }
+
     @Override
     public void salaryGet() {
         System.out.println("--CEO--");

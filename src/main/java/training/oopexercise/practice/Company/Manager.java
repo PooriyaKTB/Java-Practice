@@ -1,6 +1,7 @@
 package training.oopexercise.practice.Company;
 
 public class Manager extends Employee{
+
     @Override
     public void salaryGet() {
         System.out.println("--Manager--");
