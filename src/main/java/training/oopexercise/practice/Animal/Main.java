@@ -5,7 +5,7 @@ public class Main {
         Chicken chicken = new Chicken();
         Sparrow sparrow = new Sparrow();
 
-        chicken.fly();
+//        chicken.fly();
         sparrow.fly();
     }
 }

@@ -1,5 +1,5 @@
 package training.oopexercise.practice.Animal;
 
-public class Bird extends Animal{
-
+public interface Flyable {
+     void fly();
 }
