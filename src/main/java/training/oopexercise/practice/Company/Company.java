@@ -6,6 +6,7 @@ public class Company {
         CEO ceo = new CEO("Pooriya");
         paySalary(ceo);
         System.out.println("CEO Name: " + ceo.name);
+
         CTO cto = new CTO();
         paySalary(cto);
 
