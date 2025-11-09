@@ -13,5 +13,10 @@ public abstract class Employee {
     public void stopWork(){
 
     }
+
+    public void displayCompanyName(){
+        System.out.println(companyName);
+    }
+
     public abstract void salaryGet();
 }

@@ -21,6 +21,8 @@ public class Company {
 
         System.out.println(Employee.companyName);
         System.out.println(CEO.companyName);
+
+        ceo.displayCompanyName();
     }
 
     public static void paySalary(Employee role) {
