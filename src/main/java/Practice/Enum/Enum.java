@@ -66,6 +66,7 @@ enum DayOfWeek {
     FRIDAY,
     SATURDAY,
     SUNDAY; // TODO add some values -- don't worry about the method below for now. We'll use that in a bit.
+
 //
 //    DayOfWeek(DayOfWeek day) {
 //        System.out.println(day);
