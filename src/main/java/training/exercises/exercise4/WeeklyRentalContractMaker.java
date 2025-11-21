@@ -16,6 +16,7 @@ class WeeklyRentalContractMaker {
    */
   WeeklyRentalContract createStandardContract(String customerName, int weeklyPaymentAmount) {
     // TODO create the standard contract
-    return null;
+      var weeklyRentalContract = new WeeklyRentalContract(customerName,weeklyPaymentAmount,DayOfWeek.FRIDAY);
+    return weeklyRentalContract;
   }
 }

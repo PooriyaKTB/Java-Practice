@@ -10,6 +10,9 @@ class EnumPrinter {
    */
   void printDaysOfTheWeek() {
     // TODO print out all the allowed values of the DayOfWeek enum, in order, one per line
+      for (DayOfWeek day: DayOfWeek.values()){
+          System.out.println(day);
+      }
   }
 
 }
