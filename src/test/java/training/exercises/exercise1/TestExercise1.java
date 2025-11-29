@@ -109,12 +109,13 @@ public class TestExercise1 extends ExerciseTest {
   @Test
   public void testDivisionExtra() {
     // TODO what happens if we try to divide by zero? Uncomment the following line to find out...
-    // maths.divide(1, 0);
+      Maths maths = new Maths();
+      maths.divide(1, 0);
 
     // TODO How can we change the 'divide' method so that we can have decimal points in the result?
     //      For example, what types could we use with the method so that the following will pass?
     //      Will the original testDivision still pass?
-    // assertEquals("Checking divide with a decimal point", 0.5, maths.divide(2.0, 4.0), 0);
+     assertEquals("Checking divide with a decimal point", 0.5, maths.divide(2.0, 4.0), 0);
   }
 
   /**

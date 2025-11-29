@@ -53,7 +53,7 @@ class Maths {
    * @param b the number to divide by
    * @return the result of dividing a by b
    */
-  int divide(int a, int b) {
+  double divide(double a, double b) {
     // TODO compute a divided by b
     if (b!=0) {
         return a/b;
